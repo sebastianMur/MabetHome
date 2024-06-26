@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Apply Foundations*/
+/*Color*/
+:root {
+  /*use this 60% as primary color*/
+  --primary-1: #f6f6f6;
+  --primary-2: black;
+  --primary-3: #ccd7e5;
+  --primary-4: #f5d2d2;
+  --primary-5: #f5a09f;
+
+  /* use this 30% as secondary colors */
+  --secondary: #f07c94;
+
+  --CTA: #e3255b; /*use this 10%*/
+}
+
+/*Apply typography*/
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--primary-1);
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+p,
+span,
+div,
+a {
+  font-size: 1.4rem;
+}
+small {
+  font-size: 1.2rem;
+}
+
+/*Spacing*/
